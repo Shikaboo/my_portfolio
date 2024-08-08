@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import "../styles/App.css";
 import "../styles/reset.css"
 
-import Three from "../components/section/three";
+import Three from "../components/section/three"; // header
 import Sec1  from "../components/section/sec1";
 import Sec2  from "../components/section/sec2";
 import Circles from "../components/section/circles"; // sec3
