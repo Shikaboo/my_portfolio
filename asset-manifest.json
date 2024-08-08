@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shinoboo_portfolio/static/css/main.a7a3cef8.css",
-    "main.js": "/shinoboo_portfolio/static/js/main.8ccdfeba.js",
+    "main.css": "/shinoboo_portfolio/static/css/main.d4722b15.css",
+    "main.js": "/shinoboo_portfolio/static/js/main.ea057466.js",
     "static/js/453.88460649.chunk.js": "/shinoboo_portfolio/static/js/453.88460649.chunk.js",
     "static/media/test 1.png": "/shinoboo_portfolio/static/media/test 1.0083be6b6aa10bbc1dc7.png",
     "static/media/MY_PROFILE1.png": "/shinoboo_portfolio/static/media/MY_PROFILE1.4dfe06c9ca222e96a997.png",
@@ -13,7 +13,7 @@
     "static/media/domino.png": "/shinoboo_portfolio/static/media/domino.09e007566d1d4fdab8af.png",
     "static/media/gold-stone.png": "/shinoboo_portfolio/static/media/gold-stone.53ffc2662b81c5c0e9f8.png",
     "static/media/black-stone.png": "/shinoboo_portfolio/static/media/black-stone.e1d4ed9f72fda898aef0.png",
-    "static/media/bg.png": "/shinoboo_portfolio/static/media/bg.ae2e49c643b110ba20e3.png",
+    "static/media/bg.png": "/shinoboo_portfolio/static/media/bg.a7f1120997fa79e9145c.png",
     "static/media/project_3.png": "/shinoboo_portfolio/static/media/project_3.0261c26f843e40f3fa5f.png",
     "static/media/fragments.png": "/shinoboo_portfolio/static/media/fragments.a83f36bd0540cdb41cfc.png",
     "static/media/layered_waves_haikei1.svg": "/shinoboo_portfolio/static/media/layered_waves_haikei1.b27b55353f7e0c9ed0ce185b6d3ca6f7.svg",
@@ -21,12 +21,12 @@
     "static/media/layered-peaks-haikei.svg": "/shinoboo_portfolio/static/media/layered-peaks-haikei.f54e6467d18c9f1ccf83.svg",
     "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.b44ac503379fd07527d752bed28bb31e.svg",
     "index.html": "/shinoboo_portfolio/index.html",
-    "main.a7a3cef8.css.map": "/shinoboo_portfolio/static/css/main.a7a3cef8.css.map",
-    "main.8ccdfeba.js.map": "/shinoboo_portfolio/static/js/main.8ccdfeba.js.map",
+    "main.d4722b15.css.map": "/shinoboo_portfolio/static/css/main.d4722b15.css.map",
+    "main.ea057466.js.map": "/shinoboo_portfolio/static/js/main.ea057466.js.map",
     "453.88460649.chunk.js.map": "/shinoboo_portfolio/static/js/453.88460649.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7a3cef8.css",
-    "static/js/main.8ccdfeba.js"
+    "static/css/main.d4722b15.css",
+    "static/js/main.ea057466.js"
   ]
 }
