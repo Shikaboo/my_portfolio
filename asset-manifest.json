@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5f84c323.css",
+    "main.js": "/portfolio/static/js/main.eae18a2b.js",
+    "static/js/453.88460649.chunk.js": "/portfolio/static/js/453.88460649.chunk.js",
+    "static/media/gold-stone.png": "/portfolio/static/media/gold-stone.53ffc2662b81c5c0e9f8.png",
+    "static/media/black-stone.png": "/portfolio/static/media/black-stone.e1d4ed9f72fda898aef0.png",
+    "static/media/fragments.png": "/portfolio/static/media/fragments.a83f36bd0540cdb41cfc.png",
+    "static/media/layered_waves_haikei1.svg": "/portfolio/static/media/layered_waves_haikei1.b27b55353f7e0c9ed0ce185b6d3ca6f7.svg",
+    "static/media/layered_waves_haikei2.svg": "/portfolio/static/media/layered_waves_haikei2.c3d988391fe338da03b558fede460824.svg",
+    "static/media/hanger.svg": "/portfolio/static/media/hanger.41d4d25acd7e9d9890ebcd59447c4601.svg",
+    "static/media/layered-peaks-haikei.svg": "/portfolio/static/media/layered-peaks-haikei.f54e6467d18c9f1ccf83.svg",
+    "index.html": "/portfolio/index.html",
+    "main.5f84c323.css.map": "/portfolio/static/css/main.5f84c323.css.map",
+    "main.eae18a2b.js.map": "/portfolio/static/js/main.eae18a2b.js.map",
+    "453.88460649.chunk.js.map": "/portfolio/static/js/453.88460649.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f84c323.css",
+    "static/js/main.eae18a2b.js"
+  ]
+}
