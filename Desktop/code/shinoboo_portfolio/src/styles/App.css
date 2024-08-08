@@ -220,7 +220,7 @@ canvas {
   border: 2px dashed var(--color_white);
   color: var(--color_white);
   filter: grayscale(100%);
-  opacity: 0.2;
+  opacity: 0.4;
   scale: 0.8;
   transition-property: opacity;
   transition-duration: 0.5s;
@@ -288,6 +288,9 @@ canvas {
   height: 8.875em;
   @media screen and (max-width : 480px) {
     width: 16em; height: 16em;
+  }
+  img{
+    width: 3.5em;
   }
 }
 
@@ -382,6 +385,7 @@ canvas {
 
 .sec6 > article {
   max-width: 1440px; /* 1620px -> em */
+  width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
 }
@@ -423,7 +427,12 @@ canvas {
   max-width: 33.33%; /* 슬라이드가 1/3의 너비를 가집니다 */
   border: 1px solid var(--color_white);
   background-color: var(--color_background);
-  
+  @media screen and (max-width : 1280px) {
+    max-width: 50%;
+  }
+  @media screen and (max-width : 800px) {
+    max-width: none;
+  }
 }
 
 .slide_cont{
@@ -458,7 +467,7 @@ canvas {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: calc(100vw * 0.0625);
   position: static !important;
   margin-top: 1em;
   .swiper-pagination-bullet{
@@ -706,7 +715,7 @@ canvas {
 
 
 
-/* ending */
+/* --------------------ending--------------------- */
 
 footer {
   width: 100%;
@@ -716,22 +725,25 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 9.375em; /* 150px -> em */
+  padding: 0 calc(100vw * 0.097); /* 150px -> em */
 }
 
 footer > .left_txt_box {
   display: flex;
   flex-direction: column;
-  gap: 18vh;
+  gap: calc(100vw * 0.12);
 }
 
 footer .thx_txt {
-  font-size: 6em; /* 6vw -> em */
+  font-size: 6em;
   font-weight: 900;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   line-height: 1;
+  @media screen and (max-width : 1024px) {
+    font-size: 4em;
+  }
 }
 
 footer .thx_txt > li:nth-child(2) {
@@ -741,6 +753,10 @@ footer .thx_txt > li:nth-child(2) {
 footer .deco_txt {
   display: flex;
   gap: 3.5em; /* 56px -> em */
+  justify-content: space-between;
+  @media screen and (max-width : 1024px) {
+    flex-direction: column;
+  }
 }
 
 .credit_deco, .time {
@@ -755,7 +771,7 @@ footer .deco_txt {
 }
 
 .credit_deco > p, .time > p {
-  font-size: 1.5em; /* 1.5vw -> em */
+  font-size: calc(100vw * 0.015); /* 1.5vw -> em */
   font-weight: 900;
 }
 
@@ -794,6 +810,11 @@ footer .deco_txt {
   position: absolute;
   right: -3.4375em; /* 55px -> em */
   top: 2.5em; /* 40px -> em */
+}
+
+.right_txt_box{
+  flex-direction: column;
+  gap: 3em;
 }
 
 .right_txt_box .back_to_sec ul {

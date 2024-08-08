@@ -33,7 +33,17 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
             onActiveIndexChange={(swiper) => setSwiperIndex(swiper.realIndex)}
             modules={[Navigation, Pagination]}
             slidesPerView={3}
-            spaceBetween={30}
+            spaceBetween={10}
+            breakpoints={
+              {
+                1280 : {
+                  slidesPerView : 2
+                },
+                800 : {
+                  slidesPerView : 1
+                }
+              }
+            }
             pagination={{ clickable: true }}
             loop={true}
           >

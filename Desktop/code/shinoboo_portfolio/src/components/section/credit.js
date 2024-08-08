@@ -26,7 +26,7 @@ const Credit = ({ sec1Ref, sec2Ref, sec3Ref, sec4Ref }, ref) => {
           </div>
         </div>
       </div>
-      <div className="right_txt_box">
+      <div className="flex right_txt_box">
         <div className="contact_me_txt">
           <ul>
             <li className="split">Don't hesitate.</li>
