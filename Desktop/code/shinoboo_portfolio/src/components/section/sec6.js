@@ -1,4 +1,4 @@
-import React, { useState, useRef, forwardRef, useEffect } from "react";
+import React, { useState, forwardRef } from "react";
 import PublicBtn from "../common/project_btn";
 import { clones } from "../../utils/text";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -35,6 +35,7 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
             slidesPerView={3}
             spaceBetween={30}
             pagination={{ clickable: true }}
+            loop={true}
           >
             {clones.map((clone) => (
               <SwiperSlide key={clone.id}>
@@ -57,9 +58,9 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
             ))}
           </Swiper>
           <div className="navigation-buttons">
-            <button className="swiper-button-prev" onClick={handlePrev}>Prev</button>
-            <div className="pagination"/>
-            <button className="swiper-button-next" onClick={handleNext}>Next</button>
+            <button className="swiper-button-prev" onClick={handlePrev}></button>
+            <div className="pagination" />
+            <button className="swiper-button-next" onClick={handleNext}></button>
           </div>
         </div>
       </article>

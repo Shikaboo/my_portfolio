@@ -24,10 +24,10 @@ h2 > .color {
 .AM_img_grid_wrap {
     width: 50%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 30px;
     .AM_grid1{
-        width: 100%;
+        width: calc(80% + 30px);
         figure{
             position: relative;
             width: 100%;
@@ -41,7 +41,7 @@ h2 > .color {
         }
     }
     .AM_grid2{
-        width: 60%;
+        width: 50%;
         figure{
             position: relative;
             width: 100%;
@@ -55,7 +55,7 @@ h2 > .color {
         }
     }
     .AM_grid3{
-        width: 35%;
+        width: 30%;
         figure{
             position: relative;
             width: 100%;

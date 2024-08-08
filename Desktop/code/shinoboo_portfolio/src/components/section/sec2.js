@@ -125,7 +125,6 @@ const Sec2 = forwardRef(({ sec2Ref }, ref) => {
                         <div className="flex subTxt">
                           <p>취미 1</p>
                           <p>취미 2</p>
-                          <p>취미 3</p>
                         </div>
                       </th>
                     </tr>
@@ -141,7 +140,7 @@ const Sec2 = forwardRef(({ sec2Ref }, ref) => {
                           <div className="deco_circle"></div>
                         </div>
                         <div className="flex subTxt"> 
-                          <p>고등학교</p>
+                          <p>대광 고등학교</p>
                           <p>노원그린컴퓨터아카데미</p>
                         </div>
                       </td>

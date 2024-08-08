@@ -131,7 +131,7 @@ const StartPage = () => {
     const ThreeSectionTL = gsap.timeline({ defaults: { ease: "power3.out" } });
     ThreeSectionTL
       .to("#ThreeSection .img", { scale: 0, duration: 0 })
-      .to("#ThreeSection .img", { scale: 0.7, duration: 4,})
+      .to("#ThreeSection .img", { scale: 1, duration: 4,})
       .to(canvas, { opacity: 1 })
       .fromTo(
         "#ThreeSection .line",

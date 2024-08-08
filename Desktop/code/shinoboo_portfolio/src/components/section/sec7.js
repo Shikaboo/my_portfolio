@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 
-import { MyProfileImg } from "../../utils/image";
+import { page_imgBundle } from "../../utils/image";
 
 const Sec7 = forwardRef(({ sec7Ref }, ref) => {
   const [swiperIndex, setSwiperIndex] = useState(0); // 페이지네이션용
@@ -56,11 +56,11 @@ const Sec7 = forwardRef(({ sec7Ref }, ref) => {
             modules={[Navigation, Pagination]}
             slidesPerView={1}
             spaceBetween={30}
-            pagination={{clickable : true}}
             onSlideChange={(swiper) => setSwiperIndex(swiper.activeIndex)}
             onSwiper={(swiper) => setSwiper(swiper)}
+            loop={true}
           >
-            {MyProfileImg.slice(0, 4).map((img, index) => (
+            {page_imgBundle.slice(0, 4).map((img, index) => (
               <SwiperSlide className="item" key={index}>
                 <img src={img.src} alt={`Project ${index + 1}`} />
               </SwiperSlide>
@@ -72,7 +72,7 @@ const Sec7 = forwardRef(({ sec7Ref }, ref) => {
               <span className="tit">{slideDescriptions[swiperIndex].name}</span>
               <span className="cont">{slideDescriptions[swiperIndex].description}</span>
               <div className="custom-pagination">
-                {MyProfileImg.slice(0, 4).map((_, index) => (
+                {page_imgBundle.slice(0, 4).map((_, index) => (
                   <span
                     key={index}
                     className={`swiper-pagination-bullet ${index === swiperIndex ? 'swiper-pagination-bullet-active' : ''}`}
