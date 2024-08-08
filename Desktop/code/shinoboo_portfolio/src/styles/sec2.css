@@ -22,49 +22,51 @@ h2 > .color {
 }
 
 .AM_img_grid_wrap {
-    width: 50%;
+    width: 40%;
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 30px;
     .AM_grid1{
         width: calc(80% + 30px);
-        figure{
-            position: relative;
+        @media screen and (max-width : 480px) {
             width: 100%;
-            img{
-                width: 100%; height: auto;
-                object-fit: fill;
-            }
-            figcaption{
-                position: absolute;
-            }
         }
     }
     .AM_grid2{
         width: 50%;
-        figure{
-            position: relative;
+        @media screen and (max-width : 480px) {
             width: 100%;
-            img{
-                width: 100%; height: auto;
-                object-fit: fill;
-            }
-            figcaption{
-                position: absolute;
-            }
         }
     }
     .AM_grid3{
         width: 30%;
-        figure{
-            position: relative;
+        @media screen and (max-width : 480px) {
             width: 100%;
-            img{
-                width: 100%; height: auto;
-                object-fit: fill;
+        }
+    }
+}
+
+.AM_img_grid_wrap>.grid{
+    figure{
+        position: relative;
+        width: 100%;
+        img{
+            width: 100%; height: auto;
+            object-fit: fill;
+            @media screen and (max-width : 480px) {
+                width: 300px; height: 300px;
             }
-            figcaption{
-                position: absolute;
+        }
+        figcaption{
+            position: absolute;
+            bottom: 5%; left: 5%;
+            color: var(--color_white);
+            font-size: calc(100vw * 0.02);
+            font-weight: 900;
+            text-shadow: 2px 2px 0 var(--color_background);
+            @media screen and (max-width : 480px) {
+                font-size: 1.5em;
+                bottom: 10%; left: 20%;
             }
         }
     }
@@ -277,6 +279,7 @@ tr {
     .AM_inner {
         height: auto;
         flex-direction: column;
+        gap: 8vh;
     }
 
     .AM_inner > div:first-child {

@@ -394,7 +394,7 @@
     }
 
     .scroll_text {
-        width: 50vw;
+        width: 100%;
     }
 
     .scroll_text > span {

@@ -81,5 +81,14 @@ export const projects = [
       page_link: "/",
       github_link: "/",
     },
+    {
+      id : 2,
+      title: "My Second Toy Project",
+      name: "Project Name 2",
+      src: `${page_imgBundle[4].src}`,
+      description: "해당 토이 프로젝트에 대한 간략한 설명 을 할 예정입니다 -----(만든 이유, 기능, 사용 기술 등을서술)-----",
+      page_link: "/",
+      github_link: "/",
+    },
   ]
   

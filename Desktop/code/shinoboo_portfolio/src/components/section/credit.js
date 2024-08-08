@@ -1,8 +1,30 @@
-import { imgBundle } from "../../utils/image";
-import React, { forwardRef } from "react";
-import { scrollToSection } from "../../utils/Scroll";
+import React, { useState, useEffect, forwardRef } from 'react';
+import { imgBundle } from '../../utils/image';
+import { scrollToSection } from '../../utils/Scroll';
 
 const Credit = ({ sec1Ref, sec2Ref, sec3Ref, sec4Ref }, ref) => {
+  const [currentTime, setCurrentTime] = useState('');
+
+  useEffect(() => {
+    const updateCurrentTime = () => {
+      const now = new Date();
+      const options = {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true,
+        timeZone: 'Asia/Seoul'
+      };
+      const formattedTime = now.toLocaleTimeString('en-US', options);
+      setCurrentTime(formattedTime);
+    };
+
+    updateCurrentTime();
+
+    const intervalId = setInterval(updateCurrentTime, 60000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <footer>
       <div className="left_txt_box">
@@ -21,7 +43,7 @@ const Credit = ({ sec1Ref, sec2Ref, sec3Ref, sec4Ref }, ref) => {
           <div className="time">
             <h4>Local time</h4>
             <p>
-              <span id="timeSpan">오전/오후 00:00 GMT+2</span>
+              <span id="timeSpan">{currentTime} GMT+9</span>
             </p>
           </div>
         </div>
@@ -54,10 +76,10 @@ const Credit = ({ sec1Ref, sec2Ref, sec3Ref, sec4Ref }, ref) => {
             </div>
           </div>
           <ul>
-            <li className="split" onClick={()=>{scrollToSection(sec1Ref)}}>Introduce</li>
-            <li className="split" onClick={()=>{scrollToSection(sec2Ref)}}>About Me</li>
-            <li className="split" onClick={()=>{scrollToSection(sec3Ref)}}>Skills</li>
-            <li className="split" onClick={()=>{scrollToSection(sec4Ref)}}>Project</li>
+            <li className="split" onClick={() => { scrollToSection(sec1Ref) }}>Introduce</li>
+            <li className="split" onClick={() => { scrollToSection(sec2Ref) }}>About Me</li>
+            <li className="split" onClick={() => { scrollToSection(sec3Ref) }}>Skills</li>
+            <li className="split" onClick={() => { scrollToSection(sec4Ref) }}>Project</li>
           </ul>
         </div>
       </div>

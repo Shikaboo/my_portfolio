@@ -13,7 +13,7 @@ export const initScrollAnimations = (mainRef, svg1Ref, svg2Ref) => {
     start: "80% 90%",
     end: "top 5%", // 추가 스크롤 범위 설정
     scrub: 1,
-    markers: true,
+    markers: false,
     onUpdate: (self) => {
       const progress = self.progress;
 

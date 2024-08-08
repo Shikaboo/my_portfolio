@@ -21,12 +21,15 @@ section>article{
 }
 
 .sec4 .main{
-    width: 100% !important; height: 106vh !important;
+    width: 100% !important; height: 109vh !important;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media screen and ( max-width : 480px) {
+        height: 108vh !important;
+    }
 }
 
 #svg1{
@@ -99,6 +102,9 @@ section>article{
     border-radius: 60px;
     background-color: var(--color_background);
     margin: 0 auto 60px auto;
+    @media screen and (max-width : 800px) {
+        width: 180px; height: 60px;
+    }
 }
 
 .tit_wrap_sec>.tit_wrap #Scrolltn > span{
@@ -106,6 +112,10 @@ section>article{
     font-weight: 700;
     color: #7d7d7d;
     line-height: 100px;
+    @media screen and (max-width : 800px) {
+        font-size: 20px;
+        line-height: 55px;
+    }
 }
 
 .tit_wrap_sec>.tit_wrap #Scrolltn:hover{

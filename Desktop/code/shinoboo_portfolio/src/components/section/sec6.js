@@ -32,18 +32,20 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
             onSwiper={(swiper) => setSwiper(swiper)}
             onActiveIndexChange={(swiper) => setSwiperIndex(swiper.realIndex)}
             modules={[Navigation, Pagination]}
-            slidesPerView={3}
-            spaceBetween={10}
-            breakpoints={
-              {
-                1280 : {
-                  slidesPerView : 2
-                },
-                800 : {
-                  slidesPerView : 1
-                }
-              }
-            }
+            slidesPerView={1} // 기본 슬라이드 개수는 1로 설정
+            breakpoints={{
+              480: {
+                slidesPerView: 1,
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              1280: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+            }}
             pagination={{ clickable: true }}
             loop={true}
           >
