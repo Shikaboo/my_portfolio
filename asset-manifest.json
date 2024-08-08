@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/shinoboo_portfolio/static/css/main.8b8efb18.css",
-    "main.js": "/shinoboo_portfolio/static/js/main.7cb3cd1f.js",
+    "main.css": "/shinoboo_portfolio/static/css/main.a7a3cef8.css",
+    "main.js": "/shinoboo_portfolio/static/js/main.8ccdfeba.js",
     "static/js/453.88460649.chunk.js": "/shinoboo_portfolio/static/js/453.88460649.chunk.js",
+    "static/media/test 1.png": "/shinoboo_portfolio/static/media/test 1.0083be6b6aa10bbc1dc7.png",
     "static/media/MY_PROFILE1.png": "/shinoboo_portfolio/static/media/MY_PROFILE1.4dfe06c9ca222e96a997.png",
     "static/media/MY_PROFILE3.png": "/shinoboo_portfolio/static/media/MY_PROFILE3.dfdc261272ad5b5f751f.png",
     "static/media/project_1.png": "/shinoboo_portfolio/static/media/project_1.0b7c4f4cefc6fb2e5475.png",
@@ -12,20 +13,20 @@
     "static/media/domino.png": "/shinoboo_portfolio/static/media/domino.09e007566d1d4fdab8af.png",
     "static/media/gold-stone.png": "/shinoboo_portfolio/static/media/gold-stone.53ffc2662b81c5c0e9f8.png",
     "static/media/black-stone.png": "/shinoboo_portfolio/static/media/black-stone.e1d4ed9f72fda898aef0.png",
-    "static/media/test 1.png": "/shinoboo_portfolio/static/media/test 1.5a944ae117858b126d8d.png",
+    "static/media/bg.png": "/shinoboo_portfolio/static/media/bg.ae2e49c643b110ba20e3.png",
     "static/media/project_3.png": "/shinoboo_portfolio/static/media/project_3.0261c26f843e40f3fa5f.png",
     "static/media/fragments.png": "/shinoboo_portfolio/static/media/fragments.a83f36bd0540cdb41cfc.png",
     "static/media/layered_waves_haikei1.svg": "/shinoboo_portfolio/static/media/layered_waves_haikei1.b27b55353f7e0c9ed0ce185b6d3ca6f7.svg",
     "static/media/layered_waves_haikei2.svg": "/shinoboo_portfolio/static/media/layered_waves_haikei2.c3d988391fe338da03b558fede460824.svg",
-    "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.41d4d25acd7e9d9890ebcd59447c4601.svg",
     "static/media/layered-peaks-haikei.svg": "/shinoboo_portfolio/static/media/layered-peaks-haikei.f54e6467d18c9f1ccf83.svg",
+    "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.b44ac503379fd07527d752bed28bb31e.svg",
     "index.html": "/shinoboo_portfolio/index.html",
-    "main.8b8efb18.css.map": "/shinoboo_portfolio/static/css/main.8b8efb18.css.map",
-    "main.7cb3cd1f.js.map": "/shinoboo_portfolio/static/js/main.7cb3cd1f.js.map",
+    "main.a7a3cef8.css.map": "/shinoboo_portfolio/static/css/main.a7a3cef8.css.map",
+    "main.8ccdfeba.js.map": "/shinoboo_portfolio/static/js/main.8ccdfeba.js.map",
     "453.88460649.chunk.js.map": "/shinoboo_portfolio/static/js/453.88460649.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b8efb18.css",
-    "static/js/main.7cb3cd1f.js"
+    "static/css/main.a7a3cef8.css",
+    "static/js/main.8ccdfeba.js"
   ]
 }
