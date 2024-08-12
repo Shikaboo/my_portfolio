@@ -1,0 +1,28 @@
+:root {
+    --color_main: #E56A4E;
+    --color_background: #0a0a0a;
+    --color_gray: #7d7d7d;
+    --color_white: #FAFAFA;
+    --color_border: rgba(0, 0, 0, 0.25);
+    --font_family_sans: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    @media screen and (min-width:1921px) {
+        font-size: calc(100dvw * (16 / 1920));
+    }
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100vw;
+    background-color: var(--color_background);
+}
+
+.flex {
+    display: flex;
+}
