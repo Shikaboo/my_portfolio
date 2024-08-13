@@ -1,32 +1,37 @@
 {
   "files": {
-    "main.css": "/shinoboo_portfolio/static/css/main.42cf8806.css",
-    "main.js": "/shinoboo_portfolio/static/js/main.71ac9f0e.js",
+    "main.css": "/shinoboo_portfolio/static/css/main.fcb503f9.css",
+    "main.js": "/shinoboo_portfolio/static/js/main.476d85cf.js",
     "static/js/453.88460649.chunk.js": "/shinoboo_portfolio/static/js/453.88460649.chunk.js",
     "static/media/test 1.png": "/shinoboo_portfolio/static/media/test 1.0083be6b6aa10bbc1dc7.png",
     "static/media/MY_PROFILE1.png": "/shinoboo_portfolio/static/media/MY_PROFILE1.4dfe06c9ca222e96a997.png",
     "static/media/MY_PROFILE3.png": "/shinoboo_portfolio/static/media/MY_PROFILE3.dfdc261272ad5b5f751f.png",
     "static/media/project_1.png": "/shinoboo_portfolio/static/media/project_1.0b7c4f4cefc6fb2e5475.png",
+    "static/media/KTnG.png": "/shinoboo_portfolio/static/media/KTnG.96856dda9863a8b01929.png",
     "static/media/MY_PROFILE4.png": "/shinoboo_portfolio/static/media/MY_PROFILE4.acc79d56daf586f66761.png",
     "static/media/project_2.png": "/shinoboo_portfolio/static/media/project_2.5cf55151046c078a6501.png",
+    "static/media/pf.png": "/shinoboo_portfolio/static/media/pf.93061692f065c8f90f05.png",
     "static/media/MY_PROFILE2.png": "/shinoboo_portfolio/static/media/MY_PROFILE2.5461dae5f9aca0e94713.png",
+    "static/media/bizcar.png": "/shinoboo_portfolio/static/media/bizcar.0b6d6ad6f6c0e79d5163.png",
     "static/media/domino.png": "/shinoboo_portfolio/static/media/domino.09e007566d1d4fdab8af.png",
     "static/media/gold-stone.png": "/shinoboo_portfolio/static/media/gold-stone.53ffc2662b81c5c0e9f8.png",
     "static/media/black-stone.png": "/shinoboo_portfolio/static/media/black-stone.e1d4ed9f72fda898aef0.png",
     "static/media/bg.png": "/shinoboo_portfolio/static/media/bg.a7f1120997fa79e9145c.png",
     "static/media/project_3.png": "/shinoboo_portfolio/static/media/project_3.0261c26f843e40f3fa5f.png",
+    "static/media/frontEnd_dictionary.JPG": "/shinoboo_portfolio/static/media/frontEnd_dictionary.4403683a23821ef0668c.JPG",
+    "service-worker.js": "/shinoboo_portfolio/service-worker.js",
     "static/media/fragments.png": "/shinoboo_portfolio/static/media/fragments.a83f36bd0540cdb41cfc.png",
     "static/media/layered_waves_haikei1.svg": "/shinoboo_portfolio/static/media/layered_waves_haikei1.b27b55353f7e0c9ed0ce185b6d3ca6f7.svg",
     "static/media/layered_waves_haikei2.svg": "/shinoboo_portfolio/static/media/layered_waves_haikei2.c3d988391fe338da03b558fede460824.svg",
+    "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.41d4d25acd7e9d9890ebcd59447c4601.svg",
     "static/media/layered-peaks-haikei.svg": "/shinoboo_portfolio/static/media/layered-peaks-haikei.f54e6467d18c9f1ccf83.svg",
-    "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.b44ac503379fd07527d752bed28bb31e.svg",
     "index.html": "/shinoboo_portfolio/index.html",
-    "main.42cf8806.css.map": "/shinoboo_portfolio/static/css/main.42cf8806.css.map",
-    "main.71ac9f0e.js.map": "/shinoboo_portfolio/static/js/main.71ac9f0e.js.map",
+    "main.fcb503f9.css.map": "/shinoboo_portfolio/static/css/main.fcb503f9.css.map",
+    "main.476d85cf.js.map": "/shinoboo_portfolio/static/js/main.476d85cf.js.map",
     "453.88460649.chunk.js.map": "/shinoboo_portfolio/static/js/453.88460649.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42cf8806.css",
-    "static/js/main.71ac9f0e.js"
+    "static/css/main.fcb503f9.css",
+    "static/js/main.476d85cf.js"
   ]
 }
