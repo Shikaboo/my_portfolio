@@ -21,7 +21,7 @@ const Sec7 = forwardRef(({ sec7Ref }, ref) => {
 
   useEffect(() => {
     if (swiper) {
-      swiper.on('slideChange', () => {
+      swiper.on("slideChange", () => {
         setSwiperIndex(swiper.realIndex);
       });
     }
@@ -51,22 +51,38 @@ const Sec7 = forwardRef(({ sec7Ref }, ref) => {
           </Swiper>
           <div className="slide_text_set">
             <div className="text_box">
-              <span className="tit_deco">{toys[swiperIndex].title}</span>
-              <span className="tit">{toys[swiperIndex].name}</span>
+              <div className="flex tit_top">
+                <span className="tit_deco">{toys[swiperIndex].title}</span>
+                <span className="tit">{toys[swiperIndex].name}</span>
+              </div>
               <span className="cont">{toys[swiperIndex].description}</span>
               <div className="custom-pagination">
                 {toys.map((_, index) => (
                   <span
                     key={index}
-                    className={`swiper-pagination-bullet ${index === swiperIndex ? 'swiper-pagination-bullet-active' : ''}`}
+                    className={`swiper-pagination-bullet ${
+                      index === swiperIndex
+                        ? "swiper-pagination-bullet-active"
+                        : ""
+                    }`}
                   ></span>
                 ))}
               </div>
-              <PublicBtn page_link={toys[swiperIndex].page_link} github_link={toys[swiperIndex].github_link} />
               <div className="navigation-buttons">
-                <button className="swiper-button-prev" onClick={handlePrev}></button>
-                <button className="swiper-button-next" onClick={handleNext}></button>
+                <button
+                  className="swiper-button-prev sec7_navi_btn"
+                  onClick={handlePrev}
+                ></button>
+                <button
+                  className="swiper-button-next sec7_navi_btn"
+                  onClick={handleNext}
+                ></button>
               </div>
+              <PublicBtn
+                className={"sec7_btn"}
+                page_link={toys[swiperIndex].page_link}
+                github_link={toys[swiperIndex].github_link}
+              />
             </div>
           </div>
         </div>

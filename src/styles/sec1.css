@@ -386,11 +386,11 @@
     }
 
     .flex_col > .container_main_txt > li {
-        font-size: 9em; /* 9vw -> em */
+        font-size: 2.1em; /* 9vw -> em */
     }
 
     .flex_col > .container_main_txt > li:first-child {
-        font-size: 9.2em; /* 9.2vw -> em */
+        font-size: 2.2em; /* 9.2vw -> em */
     }
 
     .scroll_text {

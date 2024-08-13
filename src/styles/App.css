@@ -371,6 +371,7 @@
   position: relative;
   z-index: 100;
   background-image: url(../assets/img/layered-peaks-haikei.svg);
+  background-size: cover;
 }
 
 /* --------------- sec4 ----------------- */
@@ -381,7 +382,7 @@
 .sec6 {
   width: 100%;
   height: 100vh;
-  margin-top: 6.25em;
+  margin-top: 30vh;
   position: relative;
 }
 
@@ -390,7 +391,7 @@
 }
 
 .sec6 > article {
-  max-width: 1440px;
+  max-width: 1620px;
   width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
@@ -540,7 +541,7 @@
 /* --------------- sec7 ----------------- */
 .sec7 {
   width: 100%;
-  margin: 15.625em 0; /* 25vh -> em */
+  margin: 30vh 0; /* 25vh -> em */
 }
 
 .sec7 > .sec7_inner {
@@ -622,10 +623,9 @@
   top: 80%;
   right: 0;
   width: 30em; /* 480px -> em */
-  height: 35em; /* 560px -> em */
+  height: auto; /* 560px -> em */
   z-index: 10000;
   color: var(--color_white);
-  border: 2px solid var(--color_white);
   transform: translateY(-50%);
   @media screen and (max-width : 800px) {
     position: static; 
@@ -642,11 +642,11 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 1em;
-  margin: 3em auto;
+  margin: 3em auto 3em 1.75em;
   position: relative;
   .custom-pagination{
     position: absolute;
-    top: 0; right: -9%;
+    top: 0; right: -13%;
     display: flex;
     flex-direction: column;
     width: 20px; height: 100%;
@@ -654,9 +654,19 @@
   }
   .navigation-buttons{
     width: 100%;
+    .sec7_navi_btn{
+      margin: 0;
+    }
   }
   @media screen and (max-width : 800px) {
-    padding: 0 4em;
+    padding: 0;
+  }
+  .sec7_btn{
+    margin-top: 1.5em;
+  }
+  .tit_top{
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -696,7 +706,7 @@
   width: 100%;
   text-align: left;
   font-size: 1.125em; /* 18px -> em */
-  margin-top: 3.5em; /* 56px -> em */
+  margin-top: 1.75em; /* 56px -> em */
 }
 
 .btn_wrap {
@@ -729,6 +739,7 @@
 
 .sec7 .navigation-buttons {
   display: flex;
+  height: 100%;
   justify-content: space-between;
   align-items: center;
   margin-top: 1em;

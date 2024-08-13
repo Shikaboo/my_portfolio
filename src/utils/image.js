@@ -27,9 +27,14 @@ import SkIcon9 from '../assets/img/ICON/photoshop-96.png';
 import SkIcon10 from '../assets/img/ICON/figma-100.png';
 
 import domino from '../assets/img/domino.png';
+import bizcar from '../assets/img/bizcar.png';
+import ktng from '../assets/img/KTnG.png';
+import dictionary from '../assets/img/frontEnd_dictionary.JPG';
+
 import pr_one from '../assets/img/project_1.png';
 import pr_two from '../assets/img/project_2.png';
 import pr_thr from '../assets/img/project_3.png';
+import pr_four from '../assets/img/pf.png';
 
 import comming from '../assets/img/comming_soon.gif';
 
@@ -83,6 +88,10 @@ export const page_imgBundle = [
     {src: pr_two, id: 3},
     {src: pr_thr, id: 4},
     {src: comming, id: 5},
+    {src: bizcar, id: 6},
+    {src: ktng, id: 7},
+    {src: dictionary, id: 8},
+    {src: pr_four, id: 9},
 ]
 
 export const MyProfileImg = [

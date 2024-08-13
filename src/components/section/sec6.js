@@ -63,7 +63,7 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
                         </React.Fragment>
                       ))}
                     </p>
-                    <PublicBtn page_link={clone.page_link} github_link={clone.github_link} />
+                    <PublicBtn className={'sec6_btn'} page_link={clone.page_link} github_link={clone.github_link} />
                   </figcaption>
                 </figure>
               </SwiperSlide>

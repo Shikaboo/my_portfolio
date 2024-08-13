@@ -56,8 +56,7 @@ const Sec5 = ({ sec5Ref, sec6Ref, sec7Ref }, ref) => {
                       </div>
                       <div className="hash_wrap">
                         <ul className="hash_box flexCm">
-                          <li>{project.language}</li>
-                          <li>{project.Library}</li>
+                          <li>{project.TechStack}</li>
                         </ul>
                       </div>
                     </div>
