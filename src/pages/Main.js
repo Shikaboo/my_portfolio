@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "../styles/App.css";
 import "../styles/reset.css"
@@ -20,6 +22,15 @@ function Main() {
   const sec6Ref = useRef(null);
   const sec7Ref = useRef(null);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      mirror: true,
+      disable: window.innerWidth < 768,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Three />

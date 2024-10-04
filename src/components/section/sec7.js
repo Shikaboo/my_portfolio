@@ -28,7 +28,7 @@ const Sec7 = forwardRef(({ sec7Ref }, ref) => {
   }, [swiper]);
 
   return (
-    <section className="sec sec7" ref={sec7Ref}>
+    <section className="sec sec7" ref={sec7Ref} data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <article className="sec7_inner">
         <div className="sec7_tit">
           <h2>TOY PROJECT</h2>

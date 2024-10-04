@@ -128,7 +128,7 @@ const StartPage = () => {
   };
 
   return (
-    <section id="ThreeSection" ref={sectionRef}>
+    <section id="ThreeSection" ref={sectionRef} data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <img className="img" src={imgBundle[8].src} alt="Centered" />
       <div className="arrow1"></div>
       <div className="arrow2"></div>

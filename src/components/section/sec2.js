@@ -13,6 +13,7 @@ const Sec2 = forwardRef(({ sec2Ref }, ref) => {
     <section
       className="flex sec sec2"
       ref={sec2Ref}
+      data-aos="fade-up" data-aos-anchor-placement="center-bottom"
     >
       <article className="sec2_AboutMe">
         <div className="AM_inner">

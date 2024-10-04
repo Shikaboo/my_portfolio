@@ -9,13 +9,13 @@ import { projects } from "../../utils/text";
 
 const Sec5 = ({ sec5Ref, sec6Ref, sec7Ref }, ref) => {
   return (
-    <div className="box2">
+    <div className="">
       <section className="sec sec5" ref={sec5Ref}>
         <article className="sec5_inner">
           <h1>PROJECT</h1>
           <div className="project_box_world_wrap">
             {projects.map((project, index) => (
-              <div key={project.id} className={`project_box_wrap${index + 1}`}>
+              <div key={project.id} className={`project_box_wrap${index + 1}`} data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <p className="project_tit">
                   <span>{`0${project.id}`}</span>.{project.title}
                 </p>

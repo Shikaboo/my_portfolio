@@ -564,7 +564,7 @@
 
 .sec7_tit > h2 {
   display: inline-block;
-  font-size: 5em; /* 80px -> em */
+  font-size: 4em; /* 80px -> em */
   font-weight: 900;
   color: var(--color_white);
   letter-spacing: -0.1em; /* 0.25vw -> em */
@@ -618,12 +618,12 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  background: linear-gradient(-135deg, transparent 60px, var(--color_background) 0) top right;
+  background: linear-gradient(-135deg, transparent 60px, var(--color_main) 0) top right;
   position: absolute;
-  top: 80%;
   right: 0;
-  width: 30em; /* 480px -> em */
-  height: auto; /* 560px -> em */
+  bottom: -50%;
+  width: 25em;
+  height: 100%;
   z-index: 10000;
   color: var(--color_white);
   transform: translateY(-50%);
@@ -687,7 +687,7 @@
 }
 
 .sec7 .swiper-pagination-bullet-active {
-  background-color: var(--color_main);
+  background-color: var(--color_background);
 }
 
 .tit_deco {

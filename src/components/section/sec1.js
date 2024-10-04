@@ -22,7 +22,7 @@ const Sec1 = forwardRef(({ sec1Ref }, ref) => {
   }, []);
 
   return (
-    <section className="sec sec1" ref={sec1Ref}>
+    <section className="sec sec1" ref={sec1Ref} data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <div className="personal_img">
         <img src={imgBundle[7].src} alt="my_img" />
       </div>

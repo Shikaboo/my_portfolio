@@ -20,7 +20,7 @@ const Sec6 = forwardRef(({ sec6Ref }, ref) => {
   };
 
   return (
-    <section className="sec sec6" ref={sec6Ref}>
+    <section className="sec sec6" ref={sec6Ref} data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <article>
         <div className="sec6_tit">
           <h2>WEB CLONE</h2>
