@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shinoboo_portfolio/static/css/main.fcb503f9.css",
-    "main.js": "/shinoboo_portfolio/static/js/main.476d85cf.js",
+    "main.css": "/shinoboo_portfolio/static/css/main.40721cf3.css",
+    "main.js": "/shinoboo_portfolio/static/js/main.1cf0aded.js",
     "static/js/453.88460649.chunk.js": "/shinoboo_portfolio/static/js/453.88460649.chunk.js",
     "static/media/test 1.png": "/shinoboo_portfolio/static/media/test 1.0083be6b6aa10bbc1dc7.png",
     "static/media/MY_PROFILE1.png": "/shinoboo_portfolio/static/media/MY_PROFILE1.4dfe06c9ca222e96a997.png",
@@ -26,12 +26,12 @@
     "static/media/hanger.svg": "/shinoboo_portfolio/static/media/hanger.41d4d25acd7e9d9890ebcd59447c4601.svg",
     "static/media/layered-peaks-haikei.svg": "/shinoboo_portfolio/static/media/layered-peaks-haikei.f54e6467d18c9f1ccf83.svg",
     "index.html": "/shinoboo_portfolio/index.html",
-    "main.fcb503f9.css.map": "/shinoboo_portfolio/static/css/main.fcb503f9.css.map",
-    "main.476d85cf.js.map": "/shinoboo_portfolio/static/js/main.476d85cf.js.map",
+    "main.40721cf3.css.map": "/shinoboo_portfolio/static/css/main.40721cf3.css.map",
+    "main.1cf0aded.js.map": "/shinoboo_portfolio/static/js/main.1cf0aded.js.map",
     "453.88460649.chunk.js.map": "/shinoboo_portfolio/static/js/453.88460649.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcb503f9.css",
-    "static/js/main.476d85cf.js"
+    "static/css/main.40721cf3.css",
+    "static/js/main.1cf0aded.js"
   ]
 }
